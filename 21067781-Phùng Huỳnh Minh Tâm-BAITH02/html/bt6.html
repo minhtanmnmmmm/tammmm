@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+</head>
+<body>
+    <div class="invitation-container">
+        <link rel="stylesheet"
+        href="../css/bt6.css">
+    <form action="process_login.php" method="post">
+        <h2>📲Login</h2>
+        <label for="username">Tên người dùng:</label>
+        <div style="position: relative;">
+            <input type="text" id="username" name="username" required>
+            <span class="suffix">👤</span>
+        </div>
+        <label for="password">Mật khẩu:</label>
+        <div style="position: relative;">
+            <input type="password" id="password" name="password" required>
+          <span class="suffix">🔑</span>
+            <button type="button" class="reveal-toggle" onclick="togglePassword()">👀</button>
+        </div>
+        <input type="submit" value="Đăng nhập">
+    </form>
+    </div>
+    <script src="../file/bt6.js"></script>
+</body>
+</html>

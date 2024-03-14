@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đóng góp ý kiến về sản phẩm</title>
+</head> 
+<body>
+    <div class="invitation-container">
+        <link rel="stylesheet"
+            href="../css/bt2.css">
+        <div class="container">
+        <h1>Đóng góp ý kiến về sản phẩm</h1>
+        <p>Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu.</p>
+        <p>Các ý kiến đóng góp nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm (nếu có).</p>
+        </div>
+            <div class="input-group">
+                <input type="text" id="input-name" required placeholder="Họ và tên">
+                <input type="text" id="input-card" required placeholder="Mã thẻ">
+            </div>
+            <div class="input-group">
+                <input type="tel" id="input-phone" required placeholder="Số điện thoại">
+                <input type="email" id="input-email" required placeholder="Email">
+            </div>
+            <div class="input-group">
+                <select id="input-customer-type" required placeholder="Loại khách hàng">
+                    <option value="">Loại khách hàng</option>
+                    <option value="vip">VIP</option>
+                    <option value="regular">Thân Thiết</option>
+                    <option value="new">Mới</option>
+                </select>
+                <input type="text" id="input-invoice" placeholder="Mã hóa đơn">
+            </div>
+            <div class="input-group">
+                <textarea id="input-description" required placeholder="Chi tiết mô tả"></textarea>
+            </div>
+            <button class="btn" type="submit">Gửi ý kiến 💬</button>
+    </div>
+</body>
+</html>

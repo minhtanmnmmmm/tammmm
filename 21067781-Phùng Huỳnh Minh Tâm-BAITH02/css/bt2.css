@@ -1,0 +1,69 @@
+/*bài 2*/
+.invitation-container {
+    background-color: #e6e6eb;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 1);
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e6e6eb;
+    border-radius: 5px;
+  }
+  .row {
+    margin-top: 15px;
+    font-size: 25px;
+    color: #71328b;
+  }
+  .container h1{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #a65ec4;
+  }
+  .row p {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #141415;
+  }
+  .input-group {
+    padding: 12px 20px;
+    border: 1px solid #e0eeee;
+    border-radius: 50px;
+    width: 40%;
+    margin-bottom: 20px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.input-group input
+{
+    width: 150px;
+    padding: 12px 20px;
+    margin-bottom: 5spx;
+}
+.input-group select
+{
+  width: 190px;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+}
+.input-group textarea
+{
+  width: 350px;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+}
+.btn {
+    padding: 5px;
+    background-color: rgb(82, 152, 232);
+    color: white;
+    width: 20%;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+

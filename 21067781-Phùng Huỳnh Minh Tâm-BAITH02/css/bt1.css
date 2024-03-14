@@ -1,0 +1,9 @@
+body
+{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(221, 219, 222);
+}
